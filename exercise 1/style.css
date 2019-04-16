@@ -1,0 +1,90 @@
+
+body{
+    background-image: url("background.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+   
+   
+}
+#perkenalan{
+    
+    text-align: center;
+    margin-left: 2em;
+    border: 5px solid rgba(53, 53, 86, 0.53);
+    width: 300px;
+    height: 345px;
+    padding: 56px;
+    
+}
+
+.biodata #perkenalan .nama{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    letter-spacing: 1px;
+
+}
+
+.biodata{
+    display:grid;
+    grid-template-columns: 13% 60%;
+    grid-column-gap: 254px;
+    margin-left: 30px;
+    padding-top: 65px;
+    
+    
+}
+
+.biodata #perkenalan .foto{
+    width: 133px;
+    eight: 133px; 
+    border-radius: 50%;   
+    vertical-align: middle; 
+    
+}
+
+#personal{
+    text-align: justify;
+    left: 30px;
+    max-width: 100%
+    
+}
+.biodata #personal .profil{
+    
+        background:rgba(2, 2, 2, 0.5);
+        width: 76%;
+        height: 428px;
+        padding:69px;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        color:#fff;
+        text-align: justify;
+}
+
+#nav{
+    background-color:rgba(2, 2, 2, 0.5);
+    color: #fff;
+    
+   
+}
+a{
+    color: #212529;
+}
+.profil2{
+    background:rgba(2, 2, 2, 0.5);
+    width: 76%;
+    height: 428px;
+    padding:69px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    color:#fff;
+    text-align: justify;;
+
+    border-top-left-radius: 10px;
+}
+#navprofile{
+    background-color:rgba(2, 2, 2, 0.5);
+    color: #fff;
+   
+}
+
